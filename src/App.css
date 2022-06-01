@@ -1,38 +1,91 @@
-.App {
-  text-align: center;
+*{
+  margin: 0%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+html{
+  background-color:rgb(223, 211, 211);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.heading{
+  margin-left: 4%;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.App{
+  width: auto;
+  height: 6rem;
+  background-color: blue;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.contectOne{
+  height: 30rem;
+  width: 30rem;
+  background-color: blueviolet;
+  color: white;
+  margin-left: 36%;
+  margin-top: 8rem;
+  border-radius: 1rem;
+}
+.HomeOne{
+
+  height: 30rem;
+  width: 30rem;
+  background-color:crimson;
+  color: white;
+  margin-left: 36%;
+  margin-top: 8rem;
+  border-radius: 1rem;
+}
+
+.projectOne{
+  height: 30rem;
+  width: 30rem;
+  background-color:cyan;
+  color: black;
+  margin-left: 36%;
+  margin-top: 8rem;
+  border-radius: 1rem;
+}
+
+.All{
+  margin-left: 58%;
+}
+
+.LinkApp{
+  margin-left: 8rem;
+  margin-top: 2rem;
+  color: white;
+}
+
+.LinkApps{
+  margin-left: 8rem;
+  margin-top: 3rem;
+  color: white;
+}
+
+.LinkAps{
+  margin-left: 8rem;
+  margin-top: 3rem;
+  color: white;
+
+}
+
+.No{
+  position: relative;
+  margin-left: 43px;
+  top:170px;
+}
+
+.myhome{
+  position: relative;
+  margin-left: 140px;
+  top:200px;
+
+}
+
+.myproject{
+  position: relative;
+  margin-left: 100px;
+  top:200px;
+
 }
